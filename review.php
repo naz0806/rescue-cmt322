@@ -12,7 +12,7 @@ $result = mysqli_query($conn, $sql);
 if($result)
 {
 	//header("Location: https://rescue-cmt322.herokuapp.com/adminReviewReport-A.php");
-	header("Location: adminReviewReport-A.php");
+	header("Location: https://rescue-cmt322.herokuapp.com/adminReviewReport-A.php");
 }
 else
 {
