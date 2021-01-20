@@ -13,7 +13,7 @@ if(!$conn)
 
 <?php
  //connect to the database
-    $conn = mysqli_connect('remotemysql.com', '3Xfb0olTjF', 'kWUZVKJpXB', '3Xfb0olTjF') or die($conn);
+    $conn = mysqli_connect('remotemysql.com', 'dey7VCH6Jf', '3qaDOcJAfc', 'dey7VCH6Jf') or die($conn);
 
     if($mysqli->connect_error){
         die('Connection Failed : '.$mysqli->connect_error);
