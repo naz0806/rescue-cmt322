@@ -1,0 +1,313 @@
+body, html{
+  color: #929292;
+  height:100%;
+}
+
+
+
+/* ******************************************** id= heading ************************************************** */
+
+#heading{
+
+width: 100%;
+height: 100vh;
+}
+
+.img-logo{
+  height: 65px !important;
+  top: 4px;
+}
+
+.video-header {
+position:relative;
+top: 0;
+bottom: 0;
+width: 100%;
+height: 100%; 
+overflow: hidden;
+}
+
+.video-header video {
+min-width: 100%; 
+min-height: 100%; 
+/* Setting width & height 
+to auto prevents 
+the browser from stretching 
+or squishing the video */
+width: auto;
+height: auto;
+
+/* Center the video */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.video-header .video-header-write {
+  position: relative;
+  z-index: 2;
+}	
+
+.video-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.head-vid-header{
+  font-weight: 600;
+}
+
+.lead{
+  margin-top: 50px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.btn-vid-header{
+  margin-top: 70px;
+  border-color: #cb4133;
+  color: white;
+  
+}
+
+/* ******************************************** id= about ************************************************** */
+#about{
+position: relative;
+margin:100px;
+}
+.about-section{
+  text-align: center;
+} 
+
+.about-header{
+  color:#212529;
+  margin-bottom: 30px;
+}
+
+.about-header-exp{
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 60px;
+}
+
+.feature-title{
+  color:#212529;
+  text-align: left;
+}
+
+.feature-elaboration{
+  text-align: left;
+  padding-left: 5%;
+}
+
+.feature{
+  border-radius: 4px;
+  border: white;
+}
+
+.feature1{
+  background-image: url("image-F/teams.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-left:white 6px;
+  border-right:white 0px;
+  border-style: solid;
+}
+
+.feature2{
+   background-image: url("image-F/powergirl.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-left:white 6px;
+   border-right:white 0px;
+   border-style: solid;
+}
+
+.feature3{
+   background-image: url("image-F/love.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-left:white 6px;
+   border-right:white 6px;
+   border-style: solid;
+}
+
+.feature:hover .card,
+.feature:focus .card {
+  opacity: 1;
+}
+
+/* opacity 0.01 for 
+accessibility */
+/* adjust the styles 
+like height,padding to 
+match your design*/
+.feature .card {
+  opacity: 0.01;
+  min-height: 355px;
+  font-size: 1rem;
+  height: 100%;
+  transition: all 0.3s ease;
+  background: #ce242d99;
+  color: #fff;
+  padding: 30px 25px 20px;
+  border-radius: 10px;
+}
+
+/* ******************************************** id= event ************************************************** */
+
+#event{
+  position: relative;
+  margin-top: 100px;
+  color: white;
+}
+
+.event-info{
+  margin-top:40px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.j-event{
+  background-image: url("image-F/event3.jpg");
+  color: white;
+  margin-bottom: 0;
+  border-radius: 0%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+} 
+
+.jumbo{ 
+  background-color: #242629;
+  padding-top: 120px;
+} 
+
+.events{
+  padding-bottom: 30px;
+}
+
+.fa-calendar{
+margin-right: 30px;
+}
+
+.up-event{
+  font-weight:400;
+}
+/* ******************************************** id= info ************************************************** */
+#info{
+padding:5% 10%;
+text-align: center;
+position: relative;
+background-color: #fff;
+}
+
+.card:hover{
+top: -10px;
+}
+
+.info-column{
+margin-bottom: 20px;
+}
+.c-child-info{
+width: 90%;
+height: 200px;
+}
+
+.info-header{
+color: #212529; 
+}
+.info-text{
+color: #212529; 
+}
+
+/* ******************************************** id= volunteer ************************************************** */
+#volunteer{
+  margin-top:50px;
+  color: white;
+}
+
+.v-jumbo{
+  background-color: rgba(0, 0, 0, 0.856);
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.vol-exp{
+  font-weight: 500;
+}
+
+.v-event{
+  background-image: url("image-F/vo.jpg");
+  color: white;
+  margin-bottom: 0;
+  border-radius: 0%;
+  padding-bottom: 150px;
+  padding-top: 100px;
+} 
+
+.btn-vjumbo{
+  border-color: #cb4133;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* ******************************************** id= articles ************************************************** */
+
+#articles{
+background-color:#a20a0a;
+padding-bottom: 5%;
+}
+
+.article-header{
+padding-top: 5%;
+padding-bottom: 2%;
+color: white;
+text-align: center;
+}
+
+.article-elaboration{
+padding-top: 0;
+padding-right: 20%;
+padding-left: 20%;
+color: white;
+text-align: center;
+}
+.form-signin {
+width: 100%;
+max-width: 330px;
+padding: 15px;
+margin: auto;
+}
+.form-signin .checkbox {
+font-weight: 400;
+}
+.form-signin .form-control {
+position: relative;
+box-sizing: border-box;
+height: auto;
+padding: 10px;
+font-size: 16px;
+}
+.form-signin .form-control:focus {
+z-index: 2;
+}
+
+.form-control{
+margin-bottom: 10px;
+}
+
+#footer{
+padding-top: 4%;
+text-align: center;
+padding-bottom: 2%;
+}
+
+

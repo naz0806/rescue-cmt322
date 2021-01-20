@@ -1,0 +1,179 @@
+#header {
+  font-family: "Lato";
+  margin-bottom: -1.5rem;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  margin-left: -0.47rem;
+  margin-top: -1rem;
+}
+.container {
+  position: static;
+  padding-top: 5rem;
+}
+li {
+  display: inline;
+  padding-right: 2.5rem;
+  float: right;
+  padding-top: 1.8rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+#logo {
+  height: 4.5rem;
+}
+
+.volunteer {
+  border-bottom-left-radius: 40% 18%;
+  border-bottom-right-radius: 40% 18%;
+  background: rgb(194, 13, 13);
+  background: linear-gradient(
+    0deg,
+    rgb(194, 13, 13) 0%,
+    rgba(74, 25, 25, 1) 100%
+  );
+  margin: -9px;
+  padding-bottom: 8rem;
+}
+
+#vol_title {
+  padding-top: 3rem;
+  text-align: center;
+  font-family: "Lato";
+  letter-spacing: 0.3rem;
+  font-size: 28pt;
+  top: 50%;
+  right: 50%;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #635c5c, 1px 2px 1px #635c5c, 1px 3px 1px #635c5c,
+    1px 4px 1px #635c5c, 1px 5px 1px #635c5c, 1px 6px 1px #635c5c,
+    1px 7px 1px #635c5c, 1px 8px 1px #635c5c, 1px 9px 1px #635c5c,
+    1px 10px 1px #635c5c, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+#volunteer_profile {
+  padding-top: 3.5rem;
+  min-height: 250px;
+  display: flex;
+}
+#none {
+  flex: 0.8;
+}
+#profile_picture {
+  flex: 1.8;
+  text-align: center;
+}
+#vol_pic {
+  height: 250px;
+  width: 200px;
+
+  border: inset;
+}
+#info {
+  flex: 5.8;
+  text-align: left;
+  letter-spacing: 0.2em;
+  line-height: 2;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  padding-left: 4rem;
+  padding-top: 1.5rem;
+}
+
+#activity {
+  margin-top: 0.5rem;
+  margin-left: -0.6rem;
+  margin-right: -0.6rem;
+}
+
+#title-act {
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: -1rem;
+  text-align: center;
+  font-family: "Lato";
+  letter-spacing: 0.3rem;
+  font-size: 28pt;
+  top: 50%;
+  right: 50%;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #635c5c, 1px 2px 1px #635c5c, 1px 3px 1px #635c5c,
+    1px 4px 1px #635c5c, 1px 5px 1px #635c5c, 1px 6px 1px #635c5c,
+    1px 7px 1px #635c5c, 1px 8px 1px #635c5c, 1px 9px 1px #635c5c,
+    1px 10px 1px #635c5c, 1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+.tbl-h,
+.tbl-c {
+  width: 100%;
+  table-layout: fixed;
+}
+.tbl-header {
+  background: rgb(99, 92, 92);
+  background: radial-gradient(
+    circle,
+    rgba(99, 92, 92, 1) 44%,
+    rgba(8, 6, 6, 1) 100%
+  );
+  font-family: "Source Sans Pro";
+  color: white;
+}
+.tbl-content {
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: "Source Sans Pro";
+}
+
+table.tbl-h th {
+  padding: 20px 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+
+  text-transform: uppercase;
+}
+
+table.tbl-c td {
+  padding: 15px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+td{
+  font-size: .9rem;
+  padding: 1rem 1rem;
+  color: var(--color-dark);
+  margin:auto;
+}
+
+section {
+  margin: 70px;
+}
+
+#button {
+  font-family: "Source Sans Pro";
+  width: 80px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: rgb(99, 92, 92);
+  background: radial-gradient(
+    circle,
+    rgba(99, 92, 92, 1) 44%,
+    rgba(8, 6, 6, 1) 100%
+  );
+  color: white;
+  cursor: pointer;
+}
