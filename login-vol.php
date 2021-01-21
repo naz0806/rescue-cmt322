@@ -28,7 +28,7 @@ if(mysqli_num_rows($result) > 0)
 		$_SESSION['Email'] = $Email;
 		$_SESSION['Contact'] = $Contact;
 	}
-	header("Location: https://rescue-cmt322.herokuapp.com/volunteerJoinEvent-B.php");
+	header("Location: https://rescue-cmt322-new.herokuapp.com/volunteerJoinEvent-B.php");
 }
 else
 {
