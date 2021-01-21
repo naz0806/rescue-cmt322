@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 	//$result = mysqli_query($conn, $sql);
 	if($result)
 	{
-		header("Location: https://rescue-cmt322.herokuapp.com/usersSignIn-vol.php");
+		header("Location: https://rescue-cmt322-new.herokuapp.com/usersSignIn-vol.php");
 	}
 	else
 	{
