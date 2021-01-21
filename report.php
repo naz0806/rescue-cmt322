@@ -21,7 +21,7 @@ $result = mysqli_query($conn, $sql);
 if($result)
 {
 	// header("Location: https://rescue-cmt322.herokuapp.com/victimMakeReport-A.php");
-	header("Location: https://rescue-cmt322.herokuapp.com/victimMakeReport-A.php");
+	header("Location: https://rescue-cmt322-new.herokuapp.com/victimMakeReport-A.php");
 }
 else
 {
